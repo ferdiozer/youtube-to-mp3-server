@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SuvamPramanik/YoutubeToMp3Converter.git"
+    "url": "https://github.com/ferdiozer/youtube-to-mp3-server.git"
   },
   "keywords": [
     "youtube",
@@ -19,12 +19,12 @@
     "dwonload",
     "Audio"
   ],
-  "author": "Himanshu Singh",
+  "author": "Ferdi Özer",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SuvamPramanik/YoutubeToMp3Converter/issues"
+    "url": "https://github.com/ferdiozer/youtube-to-mp3-server/issues"
   },
-  "homepage": "https://github.com/SuvamPramanik/YoutubeToMp3Converter#readme",
+  "homepage": "https://github.com/ferdiozer/youtube-to-mp3-server",
   "dependencies": {
     "express": "^4.15.4",
     "http": "0.0.0",
