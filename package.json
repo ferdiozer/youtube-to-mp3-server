@@ -1,0 +1,34 @@
+{
+  "name": "youtubetomp3converter",
+  "version": "1.0.0",
+  "description": "Download audio from youtube video",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku": "node server/index.js",
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuvamPramanik/YoutubeToMp3Converter.git"
+  },
+  "keywords": [
+    "youtube",
+    "youtube",
+    "Downloader",
+    "dwonload",
+    "Audio"
+  ],
+  "author": "Himanshu Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SuvamPramanik/YoutubeToMp3Converter/issues"
+  },
+  "homepage": "https://github.com/SuvamPramanik/YoutubeToMp3Converter#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "http": "0.0.0",
+    "xml": "^1.0.1",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
