@@ -7,5 +7,5 @@ app.get('/', function(req, res){
   res.setHeader('Content-Type', 'application/json');
   res.send(mp3.getMP3(req.query));
 });
-console.log('The app is running at PORT : ' + port);
+//console.log('The app is running at PORT : ' + port);
 app.listen(process.env.PORT || 3001);
