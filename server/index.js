@@ -1,5 +1,5 @@
 var express = require('express');
-var port = process.env.PORT || 5000;
+//var port = process.env.PORT || 5000;
 var app = express();
 var mp3 = require('./util/convertor.js');
 
@@ -8,4 +8,4 @@ app.get('/', function(req, res){
   res.send(mp3.getMP3(req.query));
 });
 console.log('The app is running at PORT : ' + port);
-app.listen(port);
+app.listen(process.env.PORT || 3001);
